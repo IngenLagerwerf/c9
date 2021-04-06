@@ -1,0 +1,21 @@
+.banner_home{
+  border-top: solid 3px white;
+    background:url(../img/index.jpeg);
+    height: 800px;
+    width: 101.3%;
+    margin-top: -11px;
+    margin-left: -11px;
+    background-size: cover;
+}
+  .text_home{
+    color: #97FA9B;
+    padding: 10% 0;
+    text-align: center;
+    font-size: 400%;
+  }
+  
+  body{
+    background-color: white;
+  }
+
+
