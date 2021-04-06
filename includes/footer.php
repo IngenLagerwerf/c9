@@ -3,9 +3,9 @@
     <div class="dummytext">
         Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw.
     </div>
-    <div class="footerlogo">
+    <!-- <div class="footerlogo">
       <img src="./img/logo.png" alt="Logo" height="160px" width="260px">
-    </div>
+    </div> -->
     <div class="dummytext">
     <a>info@vistacars.nl</a>
     <br>
