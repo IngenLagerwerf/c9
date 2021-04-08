@@ -1,0 +1,28 @@
+body{
+    background-color: #97FA9B;
+  }
+.vacatures{
+    height: 600px;
+    width: 101.3%;
+    margin-top: 110px;
+    margin-left: -11px;
+    background-color: gray;
+    text-align: center;
+}
+.filter{
+    margin-top: 0%;
+    margin-left: -10%;
+    height: 100%;
+    width: 600px;
+    background-color: #0f6612;
+    border-radius: 10%;
+    display: inline-block;
+}
+.baanen{
+    margin-top: 0%;
+    margin-left: 0%;
+    height: 100%;
+    width: 70%;
+    /* background-color: red; */
+    display: inline-block;  
+}
