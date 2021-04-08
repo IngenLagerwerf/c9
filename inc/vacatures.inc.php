@@ -1,5 +1,5 @@
 <?php
-    $sql = "SELECT * FROM baan LIMIT 4" ;
+    $sql = "SELECT * FROM baan where op_dicht = 1" ;
     $stmt = $pdo->prepare($sql);
     $stmt->execute();
     $result = $stmt->fetchAll(); // get result
@@ -11,7 +11,5 @@
         $diploma = $row['diploma'];
         $loon = $row['loon'];
         $uuren = $row['uuren'];
-        $op_dicht = $row['op/dicht'];
-    
-       
+        include("baans.inc.php");
         }

@@ -23,6 +23,30 @@ body{
     margin-left: 0%;
     height: 100%;
     width: 70%;
-    /* background-color: red; */
+    background-color: red;
     display: inline-block;  
 }
+.contentItem {
+    width: 300px;
+    height: 330px;
+    box-shadow: 0px 0px 25px lightgrey;
+    padding: 10px;
+  }
+  .contentItem{
+    width:400px;
+    height:400px;
+    margin:auto;
+    text-align: center;
+  }
+  .contentItem {
+    width: 300px;
+    height: 275px;
+    box-shadow: 0px 0px 25px lightgrey;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: black;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+  }
