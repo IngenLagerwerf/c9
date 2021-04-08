@@ -32,6 +32,7 @@
   <div class="vacatures">
   <Div class="filter">
 
+
   </Div>
 
   <Div class="baanen">
