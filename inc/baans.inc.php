@@ -17,12 +17,11 @@ echo '<div class="contentItem">';
 echo '<form action="./showroom_cars.php" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
 echo '<input hidden value="goed" name="goed">';
-// echo "$naam";
-// echo '<br>';
-// echo '<input class="button" type="submit" value="">';
+echo "$naam";
+echo '<br>';
+echo '<input class="button" type="submit" value="">';
 echo '</div>';
 echo '</form>';
-echo '</div>';
 
 
 //werkt
@@ -31,7 +30,6 @@ echo '</div>';
 
 
 //    $menu = <<<HTML
-//     <div class="contentItem">
 //    <form action="./showroom.php" method="post">
 //    <div class="contentItem">
 //      <div class="row">
@@ -39,7 +37,6 @@ echo '</div>';
 //      <div  class="menutitle" name="id">$naam</div>
 //      </div>
 //         <input class="button" type="submit" value="test">
-//    </div>
 //    </form>
 // HTML;
 //     echo $menu;
