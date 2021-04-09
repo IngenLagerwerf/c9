@@ -12,9 +12,6 @@
 
   <link rel="stylesheet" href="css/navbar.css"/>
   <link rel="stylesheet" href="css/contact.css"/>
-    <title>Document</title>
-
-  <link rel="stylesheet" href="css/contact.css"/>
     <title>buurtzorg</title>
 
 </head>
@@ -27,18 +24,13 @@
   </div>
   <!-- #endregion -->
 
-
-  <div class="vacatures">
-<div id="Contact header">
-
   <div id="contact-formulier">
-
     <h1>Contact</h1>
     <input type="text" placeholder="Naam">
     <br />
     <input type="email" placeholder="Email-adres">
     <br />
-    <textarea>
+    <textarea style="width:70%; height:100px;">
     </textarea>
     <br />
     <input type="submit" name="" value="verzenden"/>
