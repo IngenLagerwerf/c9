@@ -9,7 +9,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <title>Document</title>
+  <link rel="stylesheet" href="css/contact.css"/>
+    <title>buurtzorg</title>
 </head>
 <body>
       <!-- #region Navbar-->
@@ -19,22 +20,24 @@
     </script>
   </div>
   <!-- #endregion -->
-<div id="Contact header">
-    <h1>Contact</h1>
-</div>
-<div>
-    <input type="text" placeholder="Naam">
-</br >
-    <input type="email" placeholder="Email-adres">
-</div>
-<div id="1234">
-<textarea>
-</textarea>
-</div>
 
-<div id="verzendknop">
+  <div id="contact-formulier">
+    <h1>Contact</h1>
+    <input type="text" placeholder="Naam">
+    <br />
+    <input type="email" placeholder="Email-adres">
+    <br />
+    <textarea>
+    </textarea>
+    <br />
     <input type="submit" name="" value="verzenden"/>
 </div>
+<iframe src="https://maps/place/VISTA+college/@50.8461219,5.7152576,17z/data=!3m1!4b1!4m5!3m4!1s0x47c0e98e86c9f62b:0x952ffbf18f188c5c!8m2!3d50.8461219!4d5.7174463" width="100%" height="300" style="border:none;">
+</iframe>
+<?php 
 
+  include('includes/footer.php');
+  
+?>
 </body>
 </html>
