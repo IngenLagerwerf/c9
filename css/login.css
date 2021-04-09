@@ -1,12 +1,21 @@
 body{
-
+  margin:0;
+  padding:0;
 }
 
 
-#loginknop{
-    border-radius: 25px;
-    width: 50px;
-    height: 20px;
-    color: aquamarine;
+.login-formulier{
+   text-align:center;
+    width:25%;
+    height:250px;
+    margin:250px 0px 0px 30%;
 }
+
+.login-input{
+    width:70%;
+    height:40px;
+    margin:10px;
+    text-align:center;
+}
+
 

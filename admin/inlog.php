@@ -1,6 +1,6 @@
 <?php
 include_once("connection.php"); 
-include_once("inlog.html");
+include_once("inlog.inc.php");
 
 if (isset($_POST["submit"])) {
     $melding = "";
