@@ -19,7 +19,7 @@
 
 <a class="login" href="admin/inlog.php"><i class="fas fa-user-circle"></i>Log In</a>
 
-<a class="login" href="admin/inlog.html"><i class="fas fa-user-circle"></i>Log In</a>
+<!-- <a class="login" href="admin/inlog.html"><i class="fas fa-user-circle"></i>Log In</a> -->
 
 <!-- <a id="shopping" href="shopping.php" class="fas fa-cart-plus"></a> -->
 </header>
