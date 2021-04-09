@@ -1,4 +1,5 @@
 <?php
+include_once("connection.php"); 
 include_once("inlog.html");
 
 if (isset($_POST["submit"])) {
@@ -7,7 +8,7 @@ if (isset($_POST["submit"])) {
     $wachtwoord = htmlspecialchars($_POST["wachtwoord"]);
 
     try {
-        $sql = "SELECT * FROM klant WHERE email =?";
+        $sql = "SELECT * FROM baas WHERE email =?";
         $stmt = $pdo->prepare($sql);
         $stmt->execute(array($email));
         $resultaat = $stmt->fetch(PDO::FETCH_ASSOC);

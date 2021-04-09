@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,8 +42,8 @@
 </body>
 </html>
 
-=======
-hallo mensen alles goed <!DOCTYPE html>
+
+<!-- hallo mensen alles goed <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -59,5 +58,5 @@ hallo mensen alles goed <!DOCTYPE html>
 <body>
     
 </body>
-</html>
->>>>>>> Stashed changes
+</html> -->
+

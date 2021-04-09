@@ -11,6 +11,28 @@
   <link rel="stylesheet" href="css/dank.css"/>
     <title>buurtzorg</title>
 </head>
+
+<?php
+
+if (isset(($_POST['id']))) {
+    $id = $_POST['id'];
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+?>
+
 <body>
   <div id="dankWord">
       Bedankt voor uw sollicitatie!

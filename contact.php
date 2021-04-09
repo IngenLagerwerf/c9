@@ -9,6 +9,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <link rel="stylesheet" href="css/navbar.css"/>
+  <link rel="stylesheet" href="css/contact.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -19,6 +21,8 @@
     </script>
   </div>
   <!-- #endregion -->
+
+  <div class="vacatures">
 <div id="Contact header">
     <h1>Contact</h1>
 </div>
@@ -35,6 +39,12 @@
 <div id="verzendknop">
     <input type="submit" name="" value="verzenden"/>
 </div>
+  </div>
+<?php 
 
+
+    include('includes/footer.php')
+?>
 </body>
 </html>
+

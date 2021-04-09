@@ -40,33 +40,33 @@
 
 
 echo '<div class="soliesieter">';
-echo '<form action="./soliesieter.php" method="post">';
+echo '<form action="./dank.php" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
 echo '<input hidden value="goed" name="goed">';
 
 echo "voornaam";
-echo '<input type="text" value="voornaam" name="">';
+echo '<input type="text" value="" name="voornaam">';
 echo "<br/>";
 echo "achernaam";
-echo '<input type="text" value="achernaam" name="">';
+echo '<input type="text" value="" name="achernaam">';
 echo "<br/>";
 echo "emaill";
-echo '<input type="email" value="emaill" name="">';
+echo '<input type="email" value="" name="emaill">';
 echo "<br/>";
 echo "telfoon nummer";
-echo '<input type="text" value="telfoon nummer" name="">';
+echo '<input type="text" value="" name="telfoon_nummer">';
 echo "<br/>";
 echo "diploma";
-echo '<input type="text" value="diploma" name="">';
+echo '<input type="file" value="" name="diploma">';
 echo '<br>';
 echo "cv";
-echo '<input type="file" value="cv" name="">';
+echo '<input type="file" value="" name="cv">';
 echo '<br>';
 echo "motievatsie";
-echo '<input type="text" value="motievatsie" name="">';
+echo '<input type="text" value="" name="motievatsie">';
 echo '<br>';
 
-echo '<input class="button" type="submit" value="">';
+echo '<input class="button" type="submit" value="verstuuenr">';
 echo '</div>';
 echo '</form>';
 
