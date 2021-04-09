@@ -1,21 +1,5 @@
-<div class="content">
-    <form name="inloggen" method="POST" enctype="multipart/form-data" action="">
-
-        <p id="page_titel">Inloggen</p>
-        <input required type="email" name="e-mail" placeholder="bij@voorbeeld.com" />
-        <input required type="password" name="wachtwoord" placeholder="wachtwoord" />
-
-        <div class="icon_container">
-            <input type="submit" class="icon" id="submit" name="submit" value="&rarr;" />
-        </div>
-
-        <a href="registreren.php">Registreren</a><br />
-        <a href="wachtwoord_vergeten.php">Wachtwoord vergeten</a>
-
-    </form>
-    </dov>
-
-    <?php
+<?php
+include_once("inlog.html");
 
 if (isset($_POST["submit"])) {
     $melding = "";
