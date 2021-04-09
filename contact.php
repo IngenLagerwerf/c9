@@ -32,8 +32,9 @@
     <br />
     <input type="submit" name="" value="verzenden"/>
 </div>
-<iframe src="https://maps/place/VISTA+college/@50.8461219,5.7152576,17z/data=!3m1!4b1!4m5!3m4!1s0x47c0e98e86c9f62b:0x952ffbf18f188c5c!8m2!3d50.8461219!4d5.7174463" width="100%" height="300" style="border:none;">
-</iframe>
+<div class="google_maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.6917037548133!2d5.847323651485705!3d51.00336895515002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0c790567264ad%3A0xc9edb91cf5061174!2sVISTA%20college!5e0!3m2!1snl!2snl!4v1614439351864!5m2!1snl!2snl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
 <?php 
 
   include('includes/footer.php');
