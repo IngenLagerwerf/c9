@@ -34,17 +34,47 @@
 
 
 
-   <!-- <form action="./showroom.php" method="post">
-   <div class="contentItem">
-     <div class="row">
-     <input hidden value="$id" name="id">
-     <input value="$id" name="id">
-     </div>
-        <input class="button" type="submit" value="test">
-   </form> -->
+  <?php
+  if (isset(($_POST['id']))) {
+    $id = $_POST['id'];
 
 
+echo '<div class="soliesieter">';
+echo '<form action="./soliesieter.php" method="post">';
+echo '<input hidden value="' . $id . '" name="id">';
+echo '<input hidden value="goed" name="goed">';
 
+echo "voornaam";
+echo '<input type="text" value="voornaam" name="">';
+echo "<br/>";
+echo "achernaam";
+echo '<input type="text" value="achernaam" name="">';
+echo "<br/>";
+echo "emaill";
+echo '<input type="email" value="emaill" name="">';
+echo "<br/>";
+echo "telfoon nummer";
+echo '<input type="text" value="telfoon nummer" name="">';
+echo "<br/>";
+echo "diploma";
+echo '<input type="text" value="diploma" name="">';
+echo '<br>';
+echo "cv";
+echo '<input type="file" value="cv" name="">';
+echo '<br>';
+echo "motievatsie";
+echo '<input type="text" value="motievatsie" name="">';
+echo '<br>';
+
+echo '<input class="button" type="submit" value="">';
+echo '</div>';
+echo '</form>';
+
+}
+else{
+  header("Location: vacatures.php");
+}
+?>
 
 
 

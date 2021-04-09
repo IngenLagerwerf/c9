@@ -18,3 +18,15 @@ body{
     overflow: auto;
 
 }
+.soliesieter{
+    background-color: red;
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 500px;
+    color: black;
+    margin: auto;
+    text-align: center;
+
+}
