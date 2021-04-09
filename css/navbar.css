@@ -36,7 +36,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 0.6s;
+  transition: 0.1s;
   /* background: #97FA9B; */
 }
 
@@ -74,7 +74,7 @@ header.sticky{
   height: 40%;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .footerlogo{
