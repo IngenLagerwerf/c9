@@ -29,8 +29,7 @@
 
   <div class="banner_home">
   <div class="text_home">
-    <h2>buurtzorg</h2>
-        <p>Home Pagina</p>
+  
     </div>
 </div>
 
