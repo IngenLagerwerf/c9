@@ -3,14 +3,14 @@
 
 
 echo '<div class="baandescripsen">';
-echo '<form action="./vacatderipsen.php" method="post">';
+echo '<form action="./soliesieter.php" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
 echo '<input hidden value="goed" name="goed">';
 echo "$naam";
 echo "<br/>";
-echo "$diploma";
-echo "<br/>";
 echo "$uitleg";
+echo "<br/>";
+echo "$diploma";
 echo "<br/>";
 echo "$loon";
 echo "<br/>";
