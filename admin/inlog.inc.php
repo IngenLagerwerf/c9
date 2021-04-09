@@ -17,7 +17,7 @@
           <!-- #region Navbar-->
   <div id="navbar">
     <script>
-      $("#navbar").load("../includes/navbar.php");
+      $("#navbar").load("includes/navbar.php");
     </script>
   </div>
   <!-- #endregion -->
@@ -35,7 +35,7 @@
     
 <?php 
 
-include('../includes/footer.php');
+include('includes/footer.php');
 
 ?>
 </body>
