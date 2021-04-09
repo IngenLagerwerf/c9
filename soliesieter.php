@@ -33,16 +33,21 @@
 
 
 
-    <?PHP
+
+   <!-- <form action="./showroom.php" method="post">
+   <div class="contentItem">
+     <div class="row">
+     <input hidden value="$id" name="id">
+     <input value="$id" name="id">
+     </div>
+        <input class="button" type="submit" value="test">
+   </form> -->
 
 
 
 
 
 
-
-
-  ?>
 
   </div>
 
