@@ -26,14 +26,14 @@
 
   <div id="contact-formulier">
     <h1>Contact</h1>
-    <input type="text" placeholder="Naam">
+    <input class="inputContact" type="text" placeholder="Naam">
     <br />
-    <input type="email" placeholder="Email-adres">
+    <input class="inputContact" type="email" placeholder="Email-adres">
     <br />
     <textarea style="width:70%; height:100px;">
     </textarea>
     <br />
-    <input type="submit" name="" value="verzenden"/>
+    <input id="verzenden" type="submit" name="" value="verzenden"/>
 </div>
 
   </div>

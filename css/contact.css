@@ -3,7 +3,16 @@ body{
     background-color: #97FA9B;
   }
 #contact-formulier{
+
     height:250px;
+
+    height:330px;
+
     width:30%;
     margin:300px 200px 0px 180px;
+}
+.inputContact{
+    height:50px;
+    width:70%;
+    border-radius:5px;
 }
