@@ -1,0 +1,10 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:aquamarine;
+}
+#dankWord{
+    width:35%;
+    margin:250px 200px 200px 400px;
+    font-size:50px;
+}
