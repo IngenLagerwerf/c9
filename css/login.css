@@ -12,6 +12,8 @@ body{
     width:25%;
     height:250px;
     margin:250px 0px 0px 30%;
+    margin: auto;
+    margin-top:10%
 }
 
 .login-input{

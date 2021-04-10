@@ -23,6 +23,7 @@
     </script>
   </div>
   <!-- #endregion -->
+  <div id="box"></div>
 
   <div id="contact-formulier">
     <h1>Contact</h1>
