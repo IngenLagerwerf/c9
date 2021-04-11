@@ -14,7 +14,7 @@
 
 <header>
 <a href="../index.php" class="fa fa-home">Home</a>
-<a href="../vacatures.php" class="fa fa-home">vacatures</a>
+<a href="../vacatures.php"class="fa fa-pencil fa-fw">vacatures</a>
 <a href="../contact.php"><i class="fas fa-address-card"></i>Contact</a>
 
 <a class="login" href="inlog.php"><i class="fas fa-user-circle"></i>Log In</a>
