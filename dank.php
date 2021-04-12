@@ -50,7 +50,8 @@ if (isset(($_POST['id']))) {
 
 <body>
   <div id="dankWord">
-      Bedankt voor uw sollicitatie!
+      Bedankt  voor uw sollicitatie!
+     voor uw sollicitatie!
       We zullen er zo snel mogelijk
       naar kijken.
   </div>

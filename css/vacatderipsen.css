@@ -6,7 +6,7 @@ body{
     width: 101.3%;
     margin-top: 110px;
     margin-left: -11px;
-    background-color: gray;
+    background-color: white;
 }
 .filter{
     margin-top: 0%;
@@ -29,7 +29,7 @@ body{
 
 }
   .baandescripsen{
-    background-color: blue;
+    background-color:white;
     width: 90%;
     height: 100%;
     box-shadow: 0px 0px 25px lightgrey;
@@ -43,3 +43,4 @@ body{
     flex-wrap: wrap;
     justify-content: center; */
   }
+
