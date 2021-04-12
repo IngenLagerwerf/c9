@@ -12,7 +12,7 @@ if (isset($_POST["submit"])) {
     $wachtwoord = htmlspecialchars($_POST["wachtwoord"]);
 
     try {
-        $sql = "SELECT * FROM baas WHERE email =?";
+        $sql = "SELECT * FROM klant WHERE email =?";
         $stmt = $pdo->prepare($sql);
         $stmt->execute(array($email));
         $resultaat = $stmt->fetch(PDO::FETCH_ASSOC);
