@@ -1,0 +1,25 @@
+<?php
+echo '<div class="contentItem">';
+echo '<form action="" method="post">';
+echo '<input hidden value="goed" name="goed">';
+echo "naam";
+echo '<input  value="" name="naam">';
+echo "<br/>";
+echo "uitleg";
+echo '<input  value="" name="uitleg">';
+echo "<br/>";
+echo "diploma";
+echo '<input  value="" name="diploma">';
+echo "<br/>";
+echo "loon";
+echo '<input  value="" name="loon">';
+echo '<br>';
+echo "uuren";
+echo '<input  value="" name="uuren">';
+echo "<br/>";
+echo "open";
+echo '<input hidden  value="0" name="op_dicht">';
+echo "<br/>";
+echo '<input class="button" type="submit" value="">';
+echo '</div>';
+echo '</form>';

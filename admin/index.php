@@ -38,6 +38,7 @@ header("Location: inlog.php");
 include_once("connection.php");   
 ?>
 
+
   <div class="vacatures">
 
   <script src="js/webshop.js"></script>
@@ -100,6 +101,16 @@ foreach ($result as $key => $row)  {
 // }
 
 ?>
+<?php
+echo '<div class="contentItem">';
+echo '<form action="newwerk.php" method="post">';
+echo '<input hidden value="' . $id . '" name="id">';
+echo '<input class="button" type="submit" value="newe werk">';
+echo '</div>';
+echo '</form>';
+?>
+
+
 
   </Div>
 
@@ -116,10 +127,6 @@ foreach ($result as $key => $row)  {
 
 
 
-<?php 
 
-
-    include('includes/footer.php')
-?>
 </body>
 </html>
