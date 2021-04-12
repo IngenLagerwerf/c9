@@ -98,12 +98,6 @@ foreach ($result as $key => $row)  {
 
 
 
-    <?PHP
-
-include_once("connection.php");   
-include_once("inc/vacatures.inc.php");   
-
-  ?>
   </Div>
 
   </div>

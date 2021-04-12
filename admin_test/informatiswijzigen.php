@@ -27,64 +27,36 @@
     </script>
   </div>
   <!-- #endregion -->
-<?php
-include_once("connection.php");   
-?>
 
   <div class="vacatures">
 
-
-
-
-
-
-
-  <Div class="baanen">
-
-
-
-    <?PHP
-
-
-      
+<?php
 if (isset(($_POST['goed']))) {
-  $id = $_POST['id'];
-  $op_dicht = $_POST['op_dicht'];
-  include_once("connection.php"); 
-  include_once("vacatderipsen.inc.php");
-  echo "test";
-
-  if ($op_dicht == 1) {
-    $op_dicht = 0;
-include("verrander.inc.php");
-}
-
-elseif($op_dicht == 0){
-  $op_dicht = 1;
-include("verrander.inc.php");
-}
-include_once("vacatderipsen.inc.php");
+    $id = $_POST['id'];
+    $naam = $_POST['naam'];
+    $uitleg = $_POST['uitleg'];
+    $diploma = $_POST['diploma'];
+    $loon = $_POST['loon'];
+    $uuren = $_POST['uuren'];
+    include_once("connection.php"); 
+    include_once("replays.inc.php");
+    }
 
 
-  }
-
-  if (isset(($_POST['id']))) {
+if (isset(($_POST['id']))) {
     $id = $_POST['id'];
     include_once("connection.php"); 
-    include_once("vacatderipsen.inc.php");
+    include_once("formeller.inc.php");
     }
 
 else{
   header("Location: index.php");
 }
 
-  ?>
-  </Div>
 
-  </div>
+?>
 
-
-
+</div>
 
 
 
