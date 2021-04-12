@@ -43,9 +43,11 @@ include_once("connection.php");
   <script src="js/webshop.js"></script>
   <div class="content">
     <form name="search" id="search" action="" method="POST">
-      <div style="background-color:#C2F98E; height:25px; margin-top:5%; padding:0;">
-        <input type="text" style="float:left; width:70%;" id="patroon" name="patroon" placeholder="Zoek albums" />
-        <input type="submit" style="float:none; width:10%; font-size: 1.2rem;" id="zoeken" name="zoeken" value="&#128270;" /> </br>
+      <div class="index-zoek-machine">
+        <div class="patroonPlus-zoeken">
+          <input type="text" id="patroon"  class="zoek-input" name="patroon" placeholder="Zoek albums" />
+          <input type="submit" id="zoeken" class="zoek-input" name="zoeken" value="zoek" /> </br>
+        </div>
       </div>
     </form> 
   </div>

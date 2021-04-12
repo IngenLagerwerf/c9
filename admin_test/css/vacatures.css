@@ -41,3 +41,7 @@ body{
     flex-wrap: wrap;
     justify-content: center; */
   }
+
+  #search{
+    border:solid;
+  }
