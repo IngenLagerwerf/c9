@@ -6,7 +6,7 @@ body{
     width: 101.3%;
     margin-top: 110px;
     margin-left: -11px;
-    background-color: gray;
+    background-color: white;
 }
 .baanen{
 
@@ -19,7 +19,7 @@ body{
 
 }
 .soliesieter{
-    background-color: red;
+    background-color:white;
     width: 90%;
     height: 90%;
     padding: 10px;
@@ -28,5 +28,24 @@ body{
     color: black;
     margin: auto;
     text-align: center;
+  
 
+}
+
+.inputSoliesteer{
+
+    width:30%;
+    height:500px;
+    margin:auto;
+    margin-top:10px;
+    padding:5px;
+}
+.inputSoliesteer input{
+    height:40px;
+    width:90%;
+    margin-top:5px;
+}
+
+#motivatie-input{
+    height:100px;
 }

@@ -26,7 +26,7 @@ echo "$loon";
 echo "<br/>";
 echo "$uuren";
 echo '<br>';
-echo '<input class="button" type="submit" value="">';
+echo '<input class="button" type="submit" value="Meer...">';
 echo '</div>';
 echo '</form>';
 
