@@ -33,51 +33,43 @@ include_once("connection.php");
 
   <div class="vacatures">
 
+  <script src="js/webshop.js"></script>
+  <div class="content">
+    <form name="search" id="search" action="" method="POST">
+      <div style="background-color:#C2F98E; height:25px; margin-top:5%; padding:0;">
+        <input type="text" style="float:left; width:70%;" id="patroon" name="patroon" placeholder="Zoek albums" />
+        <input type="submit" style="float:none; width:10%; font-size: 1.2rem;" id="zoeken" name="zoeken" value="&#128270;" /> </br>
+      </div>
+    </form> 
+  </div>
+
+  <?php
 
 
 
-
-
-
-  <Div class="baanen">
-
-
-
-    <?PHP
-
-
-      
-if (isset(($_POST['goed']))) {
-  $id = $_POST['id'];
-  $op_dicht = $_POST['op_dicht'];
-  include_once("connection.php"); 
-  include_once("vacatderipsen.inc.php");
-
-  if ($op_dicht == 1) {
-    $op_dicht = 0;
-include("verrander.inc.php");
-}
-
-elseif($op_dicht == 0){
-  $op_dicht = 1;
-include("verrander.inc.php");
-}
-include_once("vacatderipsen.inc.php");
-
-
-  }
-
-  if (isset(($_POST['id']))) {
+if (isset(($_POST['id']))) {
     $id = $_POST['id'];
     include_once("connection.php"); 
-    include_once("vacatderipsen.inc.php");
+    include_once("sollicitren.inc.php");
     }
 
 else{
   header("Location: index.php");
 }
 
-  ?>
+
+
+
+ 
+
+?>
+
+  </Div>
+
+  <Div class="baanen">
+
+
+
   </Div>
 
   </div>

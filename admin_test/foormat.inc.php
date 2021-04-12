@@ -26,7 +26,7 @@ echo '</form>';
 
 
 echo '<div class="contentItem">';
-echo '<form action="./vacturen.php" method="post">';
+echo '<form action="./sollicitren.php" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
 echo '<input hidden value="goed" name="goed">';
 echo "bekijk sollicitren formeluur ";
