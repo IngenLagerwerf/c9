@@ -9,10 +9,10 @@ foreach ($result as $key => $row)  {
     $id = $row['id'];
     $voornaam = $row['voornaam'];
     $achernaam = $row['achernaam'];
-    $emaill = $row['emaill '];
+    $emaill = $row['emaill'];
     $telfoon_nummer = $row['telfoon_nummer'];
     $diploma = $row['diploma'];
     $cv = $row['cv'];
     $motievatsie = $row['motievatsie'];
-    include("invul.inc.php");
+    include("mensen.inc.php");
     }
