@@ -51,7 +51,7 @@ if (isset(($_POST['id']))) {
 <body>
   <div id="dankWord">
       Bedankt  voor uw sollicitatie!
-     voor uw sollicitatie!
+      <?php echo'<div style="color:blue;">'; echo"$voornaam  $achernaam"; echo '</div>'; ?>
       We zullen er zo snel mogelijk
       naar kijken.
   </div>
