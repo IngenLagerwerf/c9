@@ -3,7 +3,7 @@
 echo '<div class="contentItem">';
 echo '<form action="" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
-echo '<input hidden value="goed" name="goed">';
+echo '<input hidden value="delyt" name="delyt">';
 echo '<br/>';
 echo "$voornaam";
 echo '<br/>';
@@ -19,6 +19,6 @@ echo "$cv";
 echo '<br/>';
 echo "$motievatsie";
 echo '<br/>';
-echo '<input class="button" type="submit" value="">';
+echo '<input class="button" type="submit" value="delyt">';
 echo '</div>';
 echo '</form>';

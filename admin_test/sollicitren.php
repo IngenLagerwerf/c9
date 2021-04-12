@@ -47,6 +47,16 @@ include_once("connection.php");
 
 
 
+
+if (isset(($_POST['delyt']))) {
+    $id = $_POST['id'];
+    include_once("connection.php"); 
+    include_once("delyt.inc.php");
+    include_once("sollicitren.inc.php");
+    }
+
+
+
 if (isset(($_POST['id']))) {
     $id = $_POST['id'];
     include_once("connection.php"); 
