@@ -1,5 +1,8 @@
 <?php
-include_once("connection.php"); 
+session_start();
+$_SESSION['true'] = false;
+
+// include_once("connection.php"); 
 
 // include_once("inlogg.php");
 
@@ -12,7 +15,7 @@ if (isset($_POST["submit"])) {
     $wachtwoord = htmlspecialchars($_POST["wachtwoord"]);
 
     try {
-        $sql = "SELECT * FROM klant WHERE email =?";
+        $sql = "SELECT * FROM baas WHERE email =?";
         $stmt = $pdo->prepare($sql);
         $stmt->execute(array($email));
         $resultaat = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -24,7 +27,7 @@ if (isset($_POST["submit"])) {
             if (password_verify($wachtwoord, $wachtwoordInDatabase)) {
                 $_SESSION["ID"] = session_id();
                 $_SESSION["USER_ID"] = $resultaat["id"];
-                $_SESSION["USER_NAAM"] = $resultaat["voornaam"];
+                // $_SESSION["USER_NAAM"] = $resultaat["voornaam"];
                 $_SESSION["E-MAIL"] = $resultaat["email"];
                 $_SESSION["STATUS"] = "ACTIEF";
                 $_SESSION["ROL"] = $rol;
@@ -34,9 +37,8 @@ if (isset($_POST["submit"])) {
                         location.href='index.php?page=webshop';
                      </script>";
                 } elseif ($rol == 1) {
-                    echo "<script>
-                        location.href='index.php?page=albums';
-                     </script>";
+                    $_SESSION['true'] = true;
+                    header("Location: index.php");
                 } else {
                     $melding = "Toegang geweigerd<br />";
                 }

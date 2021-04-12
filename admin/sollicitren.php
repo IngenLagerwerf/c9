@@ -1,10 +1,3 @@
-<?php
-session_start();
-$test = $_SESSION['true'];
-if($test == 0){
-header("Location: inlog.php");
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,47 +48,29 @@ include_once("connection.php");
 
 
 
+if (isset(($_POST['delyt']))) {
+    $id = $_POST['id'];
+    include_once("connection.php"); 
+    include_once("delyt.inc.php");
+    include_once("sollicitren.inc.php");
+    }
+
+
+
+if (isset(($_POST['id']))) {
+    $id = $_POST['id'];
+    include_once("connection.php"); 
+    include_once("sollicitren.inc.php");
+    }
+
+else{
+  header("Location: index.php");
+}
 
 
 
 
-  ///Hier wordt de sql -opdracht gegenereerd
-  if (isset($_POST["zoeken"]) && !empty($_POST["patroon"])) {
-    $patroon = htmlspecialchars($_POST["patroon"]);
-    $sql = "SELECT * FROM baan WHERE naam LIKE '%$patroon'";
-  } else {
-    $sql = "SELECT * FROM baan";
-  }
-
-  
-
-
-
-$stmt = $pdo->prepare($sql);
-$stmt->execute();
-$result = $stmt->fetchAll(); // get result
-
-foreach ($result as $key => $row)  {
-    $id = $row['id'];
-    $naam = $row['naam'];
-    // $img = $row['foto'];
-    $uitleg = $row['uitleg'];
-    $diploma = $row['diploma'];
-    $loon = $row['loon'];
-    $uuren = $row['uuren'];
-    $op_dicht = $row['op_dicht'];
-    $date = $row['date'];
-    // include("template.php");
-
-    // $sql = "SELECT * FROM photos where auto_id = $id LIMIT 1" ;
-    // $stmt = $pdo->prepare($sql);
-    // $stmt->execute();
-    // $result = $stmt->fetchAll(); // get result
-    // foreach ($result as $key => $row)  {
-    // $img = $row['name_photos'];
-    include("baansvacatures.inc.php");
-    }   
-// }
+ 
 
 ?>
 

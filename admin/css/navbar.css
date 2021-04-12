@@ -1,0 +1,115 @@
+#navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100px;
+    width:100%;
+    position: relative/sticky;
+  }
+
+  
+  #navbar a {
+    display: flex;
+    float:left;
+    list-style-type:none;
+    margin:50px;
+    color: black;
+  }
+  nav{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    padding: 0 40px;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.1s;
+  /* background: #97FA9B; */
+}
+
+header.sticky{
+  padding-top: 10px;
+  background: #97FA9B;
+}
+
+
+.footer{
+  margin-left: -11px;
+  width: 101.3%;
+  position: relative;
+  height: 220px;
+  background-color:#97FA9B;
+  /* border-top: solid 3px white; */
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+
+}
+
+.contain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.dummytext{
+  display: flex;
+  width: 15%;
+  height: 40%;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+.footerlogo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+
+
+
+  
+
+/* #navbar {
+    width: 83%;
+    height: 100px;
+    float: right;
+    position: sticky;
+    top: 0px;
+    background-color: #e56a54;
+  }
+  #navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 30px 50px;
+    font-size: 20px;
+  }
+  .logovista {
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+  } */
+  
+  
