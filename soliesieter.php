@@ -57,11 +57,12 @@ echo "diploma:";
 echo '<input type="file" value="" name="diploma">';
 echo '<br>';
 echo "cv:";
+echo "<br>";
 echo '<input type="file" value="" name="cv">';
 echo '<br>';
-echo 'motievatie';
+echo 'motivatie';
 echo '<br>';
-echo '<input type="text" id="motivatie-input" value="" name="motievatsie" placeholder="type jou motievatie hier in.....">';
+echo '<input type="text" id="motivatie-input" value="" name="motievatsie" placeholder="type jou motivatie hier in.....">';
 echo '<br>';
 
 echo '<input class="button" type="submit" value="versturen">';

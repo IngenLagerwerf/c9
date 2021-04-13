@@ -38,7 +38,7 @@
 
         if ($op_dicht == 1) {
 
-            $text = "vakaturen open";
+            $text = "vacature open";
 
 
         include("foormat.inc.php");
@@ -46,6 +46,6 @@
 
         elseif($op_dicht == 0){
          
-            $text = "vakaturen dicht";
+            $text = "vacature dicht";
             include("foormat.inc.php");
         }
