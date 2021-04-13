@@ -20,6 +20,6 @@ echo "<br/>";
 echo "open";
 echo '<input hidden  value="0" name="op_dicht">';
 echo "<br/>";
-echo '<input class="button" type="submit" value="">';
+echo '<input class="button" type="submit" value="verwerken">';
 echo '</div>';
 echo '</form>';
