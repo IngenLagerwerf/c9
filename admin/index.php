@@ -106,7 +106,7 @@ foreach ($result as $key => $row)  {
 echo '<div class="contentItem">';
 echo '<form action="newwerk.php" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
-echo '<input class="button" type="submit" value="newe werk">';
+echo '<input class="button" type="submit" value="nieuwe vacature">';
 echo '</div>';
 echo '</form>';
 ?>
