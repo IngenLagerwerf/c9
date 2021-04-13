@@ -130,7 +130,7 @@ $output_dir = "upload/";/* Path for file upload */
              $stmt->execute();
               }
    
-       echo "Image Uploaded Successfully";
+    //    echo "Image Uploaded Successfully";
 
 
 

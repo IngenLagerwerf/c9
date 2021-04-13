@@ -25,7 +25,7 @@ foreach ($result as $key => $row)  {
 $img = $row['diploma'];
 
 
-echo "<a href='../upload/$id/$img' download='diploma' >";
+echo "<a href='../upload/$id/$img' download='$img'>";
 
 if($i == 0){
     $test = "file/1";
