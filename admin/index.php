@@ -103,7 +103,7 @@ foreach ($result as $key => $row)  {
 
 ?>
 <?php
-echo '<div class="contentItem">';
+echo '<div class="nieuwevacature">';
 echo '<form action="newwerk.php" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
 echo '<input class="button" type="submit" value="nieuwe vacature">';

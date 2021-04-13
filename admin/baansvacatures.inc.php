@@ -16,7 +16,7 @@
 echo '<div class="contentItem">';
 echo '<form action="./vacturen.php" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
-echo "$id";
+// echo "$id";
 echo "$naam";
 echo "<br/>";
 echo "$diploma";

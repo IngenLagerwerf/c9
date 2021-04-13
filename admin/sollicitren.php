@@ -33,15 +33,7 @@ include_once("connection.php");
 
   <div class="vacatures">
 
-  <script src="js/webshop.js"></script>
-  <div class="content">
-    <form name="search" id="search" action="" method="POST">
-      <div>
-        <input type="text" id="patroon" name="patroon" placeholder="Zoek albums" />
-        <input type="submit" id="zoeken" name="zoeken" value="&#128270;" /> </br>
-      </div>
-    </form> 
-  </div>
+
 
   <?php
 
@@ -76,11 +68,7 @@ else{
 
   </Div>
 
-  <Div class="baanen">
 
-
-
-  </Div>
 
   </div>
 
@@ -89,10 +77,6 @@ else{
 
 
 
-<?php 
 
-
-    include('includes/footer.php')
-?>
 </body>
 </html>

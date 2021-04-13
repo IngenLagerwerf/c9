@@ -14,5 +14,23 @@ foreach ($result as $key => $row)  {
     $diploma = $row['diploma'];
     $cv = $row['cv'];
     $motievatsie = $row['motievatsie'];
+
+
+    // $sql = "SELECT * FROM fils where werkzoekers_id = $id LIMIT 2" ;
+    // $stmt = $pdo->prepare($sql);
+    // $stmt->execute();
+    // $result = $stmt->fetchAll(); // get result
+    // foreach ($result as $key => $row)  {
+    // $img = $row['diploma'];
+    // include("mensen.inc.php");
+
+    // }   
+
+
+
+
+
+
+
     include("mensen.inc.php");
     }
