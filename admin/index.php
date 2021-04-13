@@ -87,7 +87,7 @@ foreach ($result as $key => $row)  {
     $loon = $row['loon'];
     $uuren = $row['uuren'];
     $op_dicht = $row['op_dicht'];
-    
+    $date = $row['date'];
     
     // include("template.php");
 
