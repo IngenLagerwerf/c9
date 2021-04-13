@@ -19,6 +19,6 @@ echo "$cv";
 echo '<br/>';
 echo "$motievatsie";
 echo '<br/>';
-echo '<input class="button" type="submit" value="delyt">';
+echo '<input class="button" type="submit" value="delet">';
 echo '</div>';
 echo '</form>';

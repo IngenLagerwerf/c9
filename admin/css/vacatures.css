@@ -43,14 +43,13 @@ body{
   }
 
   .index-zoek-machine{
-    border:solid;
     width:70%;
     height:50px;
-    margin:auto;
+    margin:10px auto;
   }
   #patroon{
     width:70%;
   }
-  .patroonPlus-zoeken{
+  .invulIncPhp-formulier{
     border:solid;
   }
