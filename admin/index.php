@@ -88,6 +88,7 @@ foreach ($result as $key => $row)  {
     $uuren = $row['uuren'];
     $op_dicht = $row['op_dicht'];
     $date = $row['date'];
+    
     // include("template.php");
 
     // $sql = "SELECT * FROM photos where auto_id = $id LIMIT 1" ;
@@ -105,7 +106,7 @@ foreach ($result as $key => $row)  {
 echo '<div class="contentItem">';
 echo '<form action="newwerk.php" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
-echo '<input class="button" type="submit" value="newe werk">';
+echo '<input class="button" type="submit" value="nieuwe vacature">';
 echo '</div>';
 echo '</form>';
 ?>

@@ -29,7 +29,7 @@ echo '<div class="contentItem">';
 echo '<form action="./sollicitren.php" method="post">';
 echo '<input hidden value="' . $id . '" name="id">';
 echo '<input hidden value="goed" name="goed">';
-echo "bekijk sollicitren formeluur ";
+echo "bekijk sollicitatie formulier ";
 echo "= $aantal_soliesietanten";
 echo '<br>';
 echo '<input class="button" type="submit" value="details van de solisitanten">';
