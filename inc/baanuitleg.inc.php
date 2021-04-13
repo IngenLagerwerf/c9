@@ -8,6 +8,7 @@ echo '<input hidden value="' . $id . '" name="id">';
 echo '<input hidden value="goed" name="goed">';
 echo "$id";
 echo "$naam";
+// echo "<a href='./test.txt' download='test'>";
 echo "<br/>";
 echo "$uitleg";
 echo "<br/>";
@@ -20,3 +21,5 @@ echo '<br>';
 echo '<input class="button" type="submit" value="Solositeer">';
 echo '</div>';
 echo '</form>';
+
+

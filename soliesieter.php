@@ -40,7 +40,7 @@
 
 
 echo '<div class="soliesieter">';
-echo '<form action="./dank.php" method="post">';
+echo '<form action="./dank.php" method="post" enctype="multipart/form-data">';
 echo '<input hidden value="' . $id . '" name="id">';
 echo '<input hidden value="goed" name="goed">';
 
@@ -53,11 +53,13 @@ echo '<input type="email" value="" name="emaill" placeholder="Email">';
 echo "<br/>";
 echo '<input type="text" value="" name="telfoon_nummer" placeholder="telefoonnummer">';
 echo "<br/>";
-echo "diploma:";
-echo '<input type="file" value="" name="diploma">';
-echo '<br>';
-echo "cv:";
-echo '<input type="file" value="" name="cv">';
+// echo "diploma:";
+// echo '<input type="file" value="" name="diploma">';
+// echo '<br>';
+// echo "cv:";
+// echo '<input type="file" value="" name="cv">';
+echo "diploma + cv";
+echo '<input type="file" name="image[]" id="image" value="" multiple />';
 echo '<br>';
 echo 'motievatie';
 echo '<br>';
