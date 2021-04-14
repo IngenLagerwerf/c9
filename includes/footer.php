@@ -7,9 +7,9 @@
       <img src="./img/logo.png" alt="Logo" height="160px" width="260px">
     </div> -->
     <div class="dummytext">
-    <a>info@vistacars.nl</a>
-    <br>
-      <a>+31 (0)6 00 11 55 11</a>    
+    info@atbuurtzorg.nl
+      <br>
+      +31 (0)6 00 11 55 11
     </div>
   </div>
 </div>
